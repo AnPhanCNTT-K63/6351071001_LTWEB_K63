@@ -33,7 +33,7 @@
 
                 <!-- Add to Cart Form -->
                 <form action="@Url.Action("AddToCart", "Cart")" method="post">
-                    <input type="hidden" name="bookId" value="@Model.MaXe" />
+                    <input type="hidden" name="carId" value="@Model.MaXe" />
                     <input type="hidden" name="strURL" value="@Url.Action("Cart", "Cart")" />
                     <button type="submit" class="btn btn-gradient btn-lg w-100">
                         <i class="fa fa-shopping-cart me-2"></i>Add to Cart

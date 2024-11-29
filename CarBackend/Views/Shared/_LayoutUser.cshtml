@@ -54,7 +54,7 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item active">
-                        <a class="nav-link"  href="@Url.Action("Index", "CarStore")">Home</a>
+                        <a class="nav-link" href="@Url.Action("Index", "CarStore")">Home</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="movies.html">About</a>
@@ -72,13 +72,18 @@
                     </a>
                 </div>
                 <div class="search_icon">
-                    <a href="#">
-                        <img src="~/Content/images/eye-icon.png" /><span class="padding_left_15">View</span>
+                    <a href="@Url.Action("Cart", "Cart")">
+                        <span class="padding_left_15">Cart</span>
                     </a>
                 </div>
                 <div class="search_icon">
-                    <a href="#">
+                    <a href="@Url.Action("Signin", "User")">
                         <img src="~/Content/images/user-icon.png" /><span class="padding_left_15">login</span>
+                    </a>
+                </div>
+                <div class="search_icon">
+                    <a href="@Url.Action("Signup", "User")">
+                        <img src="~/Content/images/user-icon.png" /><span class="padding_left_15">Register</span>
                     </a>
                 </div>
                 <div class="search_icon">
@@ -98,15 +103,6 @@
                     @Html.Action("Distributor", "CarStore")
                 </div>
             </div>
-
-
-            <!-- Main Content -->
-           @* <div class="col-md-8">
-
-                <div>
-                    @RenderBody()
-                </div>
-            </div>*@
 
         <div class="col-md-8 d-flex align-items-center justify-content-center">
             <!-- Placeholder for content -->

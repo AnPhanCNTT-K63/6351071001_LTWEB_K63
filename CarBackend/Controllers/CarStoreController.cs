@@ -1,4 +1,5 @@
-﻿using System;
+﻿using PagedList;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -15,10 +16,13 @@ namespace CarBackend.Controllers
             return data.XEGANMAYs.OrderByDescending(a => a.Ngaycapnhat).Take(count).ToList();
         }
 
-        public ActionResult Index()
+        public ActionResult Index(int? page)
         {
-            var car = GetCar(5);
-            return View(car);
+            int pageSize = 5;
+            int pageNum = (page ?? 1);
+
+            var car = GetCar(15);
+            return View(car.ToPagedList(pageNum, pageSize));
         }
 
         public ActionResult Type()

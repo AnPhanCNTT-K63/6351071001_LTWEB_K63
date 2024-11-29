@@ -72,3 +72,7 @@ D:\Visual Studio 2022\CarBackend\obj\Debug\CarBackend.dll
 D:\Visual Studio 2022\CarBackend\obj\Debug\CarBackend.pdb
 D:\Visual Studio 2022\CarBackend\bin\EntityFramework.dll
 D:\Visual Studio 2022\CarBackend\bin\EntityFramework.xml
+D:\Visual Studio 2022\CarBackend\bin\PagedList.dll
+D:\Visual Studio 2022\CarBackend\bin\PagedList.Mvc.dll
+D:\Visual Studio 2022\CarBackend\bin\PagedList.xml
+D:\Visual Studio 2022\CarBackend\bin\PagedList.Mvc.xml
