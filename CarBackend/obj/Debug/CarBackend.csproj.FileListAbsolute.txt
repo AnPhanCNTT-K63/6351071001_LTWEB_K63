@@ -76,3 +76,5 @@ D:\Visual Studio 2022\CarBackend\bin\PagedList.dll
 D:\Visual Studio 2022\CarBackend\bin\PagedList.Mvc.dll
 D:\Visual Studio 2022\CarBackend\bin\PagedList.xml
 D:\Visual Studio 2022\CarBackend\bin\PagedList.Mvc.xml
+D:\Visual Studio 2022\CarBackend\bin\Newtonsoft.Json.dll
+D:\Visual Studio 2022\CarBackend\bin\Newtonsoft.Json.xml
